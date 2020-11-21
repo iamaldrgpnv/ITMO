@@ -1,0 +1,51 @@
+@font-face {
+	font-family: "ALSS";
+	src: url("../fonts/ALSSchlangesans.otf");
+}
+body {
+	font-family: "ALSS";
+	margin: 0;
+	padding: 0;
+	border: 1px solid black;
+
+}
+.block {
+	display: flex;
+	flex-direction: row;
+	width: 1440px;
+	height: 1024px; 
+}
+.left_part {
+	flex: 1;
+	border: 1px solid black;
+	margin: 1.25em 1.9375em 3.75em 1.25em;
+}
+.title {
+	display: flex;
+	flex-direction: column;
+}
+.main_title {
+	color: #351BA9;
+	font-weight: bold;
+	font-size: 4.375em; /* 70px */
+	width: 8.58571429em; /* 601px */
+	height: 1.15714286em; /* 81px */
+	margin-left: 0.571428571em; /* 40px */
+	border: 1px solid black;
+}
+
+.comment_title {
+	font-size: 1.0625em;
+	width: ;
+	margin-top: 1.17647059em; /* 20px */
+	text-align: center;
+}
+
+
+
+
+.right_part {
+	flex: 1;
+	border: 1px solid black;
+	margin-top: 1.0625em;
+}

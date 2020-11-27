@@ -54,7 +54,7 @@ img.olimp_comment {
 	/* margin-right: 9em; */
 }
 .main {
-	width: 46%;
+	width: 42.63%;
 	/* border: 1px solid black; */
 	margin-left: 3.11764em;
 	margin-bottom: 7.765em;
@@ -71,73 +71,45 @@ img.olimp_comment {
 	text-align: center;
 	margin-bottom: 3.529em; /* 60px */
 }
-.column {
+.column_1_2 {
+	display: flex;
+	margin-bottom: 3em;
+}
+.column_1 {
+	flex: 1;
 	/* border: 1px solid black; */
-	margin: 0 9em 3em 9em;
+	margin-right: 1.176470588235294em;
 }
 .title_input_input {
 	margin-bottom: 2.352941em; /* 40px между блоками */
-}
-.radio {
-	font-size: 0.8em;
-	display: flex;
-	/* border: 1px solid black; */
-	align-items: center;
-	justify-content: space-between;
-}
-input#check {
-	width: 1.5em;
-	margin: 0 0.7em 0 0;
-	background: linear-gradient(0deg, #3914AF, #3914AF), #FFFFFF;
-	border-radius: 0.3em;
-}
-.check_text {
-	display: flex;
-	align-items: center;
-}
-a.forget_password {
-	text-decoration: none;
-	color: #3914AF;
-}
-
-a.forget_password {
-	font-size: 0.823529em;
 }
 .title_input {
 	font-size: 0.823529em; /* 14px */
 }
 input {
 	height: 2.352941em;
-	width: 96%;
+	width: 94%;
 	border: 1px solid #C3C1CC;
 	border-radius: 0.35294117em;	
 	padding-left: 0.82352em;
 	margin-top: 1.071428em; /* 15px для контейнера title_input_info, иначе ? съезжает*/
-	outline-color: #3914af;
-}
-.input_eye {
-	position: relative;
-}
-.eye {
-	right: 0.4em;
-	top: 1.4em;
-}
-.retina {
-	right: 0.81em;
-	top: 1.64em;
 }
 .title_input_info {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between; 
 }
-
+.column_2 {
+	flex:1;
+	/* border: 1px solid black; */
+	margin-left: 1.176470588235294em;
+}
 .column_3 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-button#reg, #login_2 {
+button#reg, #login {
 	font-weight: bold;
 	border: 1px solid #3914AF;
 	line-height: 1.294em;
@@ -145,16 +117,15 @@ button#reg, #login_2 {
 	width: 32.08469055374593%; /* 197px от 614px*/
 	padding: 0.5em; /* Высота в 40px */
 	margin-bottom: 1.176470588235294em; /* 20px от 17 px */
-	outline: none;
 }
 #reg {
-	color: #3914AF;
-	background-color: white;
-	font-size: 0.9em;
-}
-#login_2 {
 	color: white;
 	background-color: #3914AF;
+	font-size: 0.9em;
+}
+#login {
+	color: #3914AF;
+	background-color: white;
 }
 .text {
 	font-size: 0.8235em;/* 14px; */
@@ -196,4 +167,3 @@ a.image_1, .image_2 {
 	right: 0;
 	bottom: 0;
 }
-

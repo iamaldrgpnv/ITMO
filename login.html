@@ -5,52 +5,51 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Login</title>
-	<link rel="stylesheet" href="css/login.css">
+	<link rel="stylesheet" href="css/log-reg.css">
 </head>
 <div class="logo">
-	<img src="images/vectors_light/vector_blue.svg" alt="" class="blue_light">
-	<img src="images/vectors_light/vector_green.svg" alt="" class="green_light">
-	<img src="images/vectors_light/vector_yellow.svg" alt="" class="yellow_light">
-	<img src="images/vectors_light/vector_red.svg" alt="" class="red_light">
+	<img src="images/vectors_light/vector_blue.svg" alt="" class="blue-light">
+	<img src="images/vectors_light/vector_green.svg" alt="" class="green-light">
+	<img src="images/vectors_light/vector_yellow.svg" alt="" class="yellow-light">
+	<img src="images/vectors_light/vector_red.svg" alt="" class="red-light">
 	<img src="images/olimp/olimp.svg" alt="" class="olimp">
-	<img src="images/olimp/olimp_comment.svg" alt="" class="olimp_comment">
+	<img src="images/olimp/olimp_comment.svg" alt="" class="olimp-comment">
 </div>
-<div class="main_waves">
-	<div class="main">
-		<div class="title">Добро пожаловать!</div>
-		<div class="comment_title">Пожалуйста, войдите в свой профиль.</div>
-		<form id="login" class="column">
-			<div class="title_input_input">
-				<div class="title_input">Логин</div>
-				<input type="text" placeholder="Александрочив" required>
-			</div>
-			<div class="title_input_input">
-				<div class="title_input">Пароль</div>
-				<div class="input_eye">
-					<input type="password" class="logo_password" required>
-					<span><img src="images/eye.svg" alt="" class="eye"></span>
-					<span><img src="images/retina.svg" alt="" class="retina"></span>
-				</div>
-			</div>
-			<div class="radio">
-				<div class="check_text">
-					<input id="check" type="checkbox" class="checkbox">
-					<label for="check">Запомнить</label>
-				</div>
-				<a href="#" class="forget_password">Забыли пароль?</a>
-			</div>
-		</form>
-		<div class="column_3">
-			<button type="submit" form="login" id="login_2">Войти</button>
-			<button id="reg">Зарегистрироваться</button>
-			<div class="text">Или войти с помощью</div>
-			<div class="images_buttons">
-				<a href="#" class="image_1"></a>
-				<a href="#" class="image_2"></a>
+<main class="log">
+	<h1>Добро пожаловать!</h1>
+	<div class="comment-title">Пожалуйста, войдите в свой профиль.</div>
+	<form id="login" class="log-form">
+		<div class="log-field">
+			<legend>Логин</legend>
+			<input type="text" placeholder="Александрочив" required>
+		</div>
+		<div class="log-field">
+			<legend>Пароль</legend>
+			<div class="password-eye ">
+				<input type="password" required>
+				<span><img src="images/eye.svg" alt="" class="eye"></span>
+				<span><img src="images/retina.svg" alt="" class="retina"></span>
 			</div>
 		</div>
+		<div class="radio">
+			<div class="check-me">
+				<input id="check" type="checkbox" class="checkbox">
+				<label for="check">Запомнить</label>
+			</div>
+			<a href="#" class="forget-password">Забыли пароль?</a>
+		</div>
+	</form>
+	<div class="authorization">
+		<button type="submit" form="login" class="log-button ">Войти</button>
+		<button class="reg-button">Зарегистрироваться</button>
+		<legend class="another-way">Или войти с помощью</legend>
+		<div class="log-with-social">
+			<a href="#" class="google-a"></a>
+			<a href="#" class="git-a"></a>
+		</div>
 	</div>
-</div>
+</main>
+
 <div class="waves">
 	<img src="images/vectors_bold/vector_blue_bold.svg" alt="" class="blue_bold">
 	<img src="images/vectors_bold/vector_green_bold.svg" alt="" class="green_bold">
